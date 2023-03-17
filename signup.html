@@ -26,7 +26,7 @@
   </head>
 
   <body class="text-center">
-    <form class="form-signin">
+    <form action="/" class="form-signin" method="post">
       <img
         class="mb-4"
         src="images/finallogo.gif"
@@ -37,6 +37,7 @@
       <h1 class="h3 mb-3 font-weight-normal">Sign up</h1>
       <input
         type="text"
+        name="fname"
         class="form-control top"
         placeholder="FirstName"
         required
@@ -44,12 +45,14 @@
       />
       <input
         type="text"
+        name="lname"
         class="form-control middle"
         placeholder="LastName"
         required
       />
       <input
         type="email"
+        name="email"
         class="form-control bottom"
         placeholder="Email"
         required
